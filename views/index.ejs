@@ -24,17 +24,7 @@
 				value="Add task" />
 		</form>
 	</header>
-	<main>
-		<section class="task-list">
-			<h2>Tasks</h2>
 
-			<div id="tasks">
-
-
-
-			</div>
-		</section>
-	</main>
 	<ul class = "list">
 		<% todo.forEach(todos=> { %>
 			<li class="list-item"><%= todos.tasks %></li><a class="btn btn-danger" href="/delete/todo/<%=todos._id %>" role="button">Delete</a>
